@@ -44,20 +44,6 @@
 @property (nonatomic, strong) UIView *centralView;
 
 /**
- * Makes it so that the progress slider appears on top of the border.
- *
- * Default is NO.
- */
-@property (nonatomic, assign) BOOL progressOnTopOfBorder;
-
-/**
- * Lets you set the alpha of the border bar, so you can make the border lighter than the progress.
- *
- * Default is 1.0f
- */
-@property (nonatomic, assign) CGFloat borderAlpha;
-
-/**
  * Fills in the circle with the tintColor on touch.
  *
  * Fills immediately, but fades when touch removed.
