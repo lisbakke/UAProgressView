@@ -96,7 +96,7 @@ NSString * const UAProgressViewProgressAnimationKey = @"UAProgressViewProgressAn
 	if (_centralView != centralView) {
 		[_centralView removeFromSuperview];
 		_centralView = centralView;
-		[self addSubview:self.centralView];`
+		[self addSubview:self.centralView];
 	}
 }
 
